@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="PlacementProjV1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h1> Manipal Institute of Technology <br> Office of Industrial Liaison, <br> Placement & Practice School </h1>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <p>
+            Contact: 
+Office of Industrial Liason, Placement and Practice School <br>
+Manipal Institute of Technology <br>
+Manipal Academy of Higher Education <br> 
+Phone: 0820-2925562 
+ </p>
+    </form>
+</body>
+</html>
